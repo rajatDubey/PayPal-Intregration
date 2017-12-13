@@ -1,0 +1,19 @@
+<html>
+	<head><h1>PayPal Gateway</h1></head>
+	<body>
+    <div>
+      <h4> Use $10 to buy : A </h4>
+      <button>ADD</button>
+      <h4> Use $15 to buy : B </h4>
+      <button>ADD</button>
+      <h4> Use $20 to buy : C </h4>
+      <button>ADD</button>
+    </div>
+    <div>
+      <h4>Add to Cart</h4> #total
+      <form action="/api/pay" method="post">
+      <input type="submit" value="buy">
+    </form>
+    </div>
+	</body>
+</html>
